@@ -3,3 +3,5 @@ venv/
 *.pkl
 cos_sim.pkl
 songs_dic.pkl
+cos_sim.pkl
+songs_dic.pkl
