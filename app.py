@@ -20,7 +20,7 @@ song_df = pd.DataFrame(songs_dic)
 def recommended(song_name):
     song_index = song_df[song_df['song_name'] == song_name].index[0]
     distances = cos_sim[song_index]
-    song_top_20_list = sorted(list(enumerate(distances)), reverse=True, key=lambda x: x[1])[1:21]
+    song_top_20_list = sorted(list(enumerate(distances)), reverse=True, key=lambda x: x[1])[1:6]
 
     recommended_songs = []
     for i in song_top_20_list:
