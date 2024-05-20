@@ -1,3 +1,5 @@
 venv/
 .DS_Store
 *.pkl
+cos_sim.pkl
+songs_dic.pkl
