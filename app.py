@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import requests
 
-@st.cache
+@st.cache_data
 def load_pickle_file(url):
     response = requests.get(url)
     response.raise_for_status()  # Ensure we got a successful response
