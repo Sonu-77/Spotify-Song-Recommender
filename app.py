@@ -10,8 +10,8 @@ def load_pickle_file(url):
     return pickle.loads(response.content)
 
 # Replace these URLs with the actual URLs of your files in the cloud storage
-cos_sim_url = "https://ml-model-cos-sim.s3.ap-southeast-2.amazonaws.com/cos_sim.pkl"
-songs_dic_url = "https://ml-model-cos-sim.s3.ap-southeast-2.amazonaws.com/songs_dic.pkl"
+cos_sim_url = "https://ml-spotify-dataset.s3.ap-southeast-2.amazonaws.com/cos_sim.pkl"
+songs_dic_url = "https://ml-spotify-dataset.s3.ap-southeast-2.amazonaws.com/songs_dic.pkl"
 
 cos_sim = load_pickle_file(cos_sim_url)
 songs_dic = load_pickle_file(songs_dic_url)
