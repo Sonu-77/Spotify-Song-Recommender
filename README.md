@@ -3,6 +3,10 @@
 
 #### This project was to put my skill of machine learning to create an end to end recommender model from the scratch to the deployment for user's engagement or usage.
 
+
+## Link OF THE APP 
+- [Application](https://spotify-song-recommender-urpu.onrender.com/)
+
 ## Table Of Content 
 - [Tools Used](#tools-used-while-performing-the-analysis)
 - [Data Cleaning](#data-cleaning-step-used-in-python-jupyter-notebook)
