@@ -1,7 +1,7 @@
 # Spotify Songs Recmmender
 
 
-#### This project was to put my skill of machine learning to create an end to end recommender model from the strach to the deployment for user's engagement or usage.
+#### This project was to put my skill of machine learning to create an end to end recommender model from the scratch to the deployment for user's engagement or usage.
 
 ## Table Of Content 
 - [Tools Used](#tools-used-while-performing-the-analysis)
@@ -11,7 +11,7 @@
 - [Conclusion](#conclusion)
 
 ## Tools Used While performing the Analysis
-- Excel - [Download Dataset Here](https://drive.google.com/file/d/1qJiCKuVj6QvMlWGvm-Cc_ZvNyno_JoCI/view?usp=sharing)
+- Excel - [Download Dataset Here](https://drive.google.com/file/d/1kXe41SVJ_6XPKp2KI_M_7Q_AfY_JV4aD/view?usp=sharing)
 - Python
   - Jupyter notebook : Cleaning the dataset, preprocessing and making vectorization the features column to get the cosine_similarity to predict the recommended songs.
   - IDE : Like PyCharm CE for web devlopment.
@@ -40,7 +40,7 @@
 ## Features in PyCharm CE
 - Created a new project (Spotify-Song-Recommend) and new environment in it to get started.
 - Created files 
-  - **app.py** the main file where your code of making for site is coded like streamlit or my case.
+  - **app.py** the main file where your code of making for site is coded like streamlit for my web-site.
   - **Procfile** to run your code to website.
   - **requirements.txt** mention all the libraries used in the website building.
   - **.gitignore** it is optional if your file or model size is huge you can ignore the file upload in the site, but you can use server options by AWS S3 bucket.
