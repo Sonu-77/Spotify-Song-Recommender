@@ -5,11 +5,9 @@
 
 ## Table Of Content 
 - [Tools Used](#tools-used-while-performing-the-analysis)
-- [Data Cleaning](#data-cleaning-step-used-in-python)
-- [EDA](#performed-the-eda-task-in-python)
-- [Features](#features)
-- [Dashboard in Tableau](#using-the-cleaned-dataset-performed-interactive-dashboard-in-tableau)
-- [Result](#result-and-findings)
+- [Data Cleaning](#data-cleaning-step-used-in-python-jupyter-notebook)
+- [Features to Build Model](#features-in-jupyter-notebook)
+- [Features to Build Website](#features-pycharm-ce)
 - [Conclusion](#conclusion)
 
 ## Tools Used While performing the Analysis
@@ -25,7 +23,7 @@
   - AWS : Used it for creating https:// link as the dataset and model generated is large stored it in S3 bucket.
 
 
-## Data Cleaning Step Used In Python (Jupyter notebook)
+## Data Cleaning Step Used In Python Jupyter notebook
 - imported the necessary libraries like numpy, pandas, scikit-learn, pickle, request.
 - loaded the csv file from the system.
 - performed the cleaning analysis:
@@ -34,12 +32,12 @@
   - adjusted the dtypes of date and time columns.
   - droped the unnecessary columns to remove confuctions.
     
-## Features (Jupyter notebook)
+## Features in Jupyter notebook
 - **Vectorization** : Fit _Transfored the text column's or feature to array vector(0,1) if same feature it will give value 1 or 0 for disimilarity.
 - **Checking Simlarity** : Used library scikit-learn to see the cosine_similarity of the vector to predict the model.
 - **Pickled the Model** : Used pickle.dump to use the model for deploying the site.
 
-## Features (PyCharm CE)
+## Features in PyCharm CE
 - Created a new project (Spotify-Song-Recommend) and new environment in it to get started.
 - Created files 
   - **app.py** the main file where your code of making for site is coded like streamlit or my case.
